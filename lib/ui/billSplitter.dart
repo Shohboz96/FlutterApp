@@ -56,6 +56,13 @@ class _BillSplitterState extends State<BillSplitter> {
                       prefixStyle: TextStyle(color: Colors.blueGrey),
                       prefixIcon: Icon(Icons.attach_money)
                     ),
+                    onChanged: (String value) {
+                      try{
+
+                      }catch(exception){
+
+                      }
+                    },
                   )
 
 
