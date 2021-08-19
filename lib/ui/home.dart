@@ -31,8 +31,9 @@ class ScaffoldExample extends StatelessWidget {
         BottomNavigationBarItem(icon: Icon(Icons.ac_unit),title: Text("Third")),
         // BottomNavigationBarItem(icon: Icon(Icons.list),title: Text("Fourth")),
       ],
-      onTap: (int index) => debugPrint("tapped : $index"),),
-      backgroundColor: Colors.redAccent.shade100,
+      onTap: (int index) => debugPrint("tapped : $index"),
+      backgroundColor: Colors.cyanAccent,),
+      backgroundColor: Colors.cyanAccent.shade700,
       body: Container(
         alignment: Alignment.center,
         child: Column(
