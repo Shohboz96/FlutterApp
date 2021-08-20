@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/util/hexcolor.dart';
 
 class Wisdom extends StatefulWidget {
   const Wisdom({Key? key}) : super(key: key);
