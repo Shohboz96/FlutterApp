@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:untitled/ui/billSplitter.dart';
 import 'package:untitled/ui/card.dart';
+import 'package:untitled/ui/quize.dart';
 import 'package:untitled/ui/wisdom.dart';
 
 import 'ui/home.dart';
 
 void main() => runApp(new MaterialApp(
-  home: BillSplitter(),
+  home: QuizeApp(),
 ));
 
 
