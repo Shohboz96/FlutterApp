@@ -5,6 +5,7 @@ import 'package:untitled/parsing_json/json_parsing_map.dart';
 import 'package:untitled/ui/billSplitter.dart';
 import 'package:untitled/ui/card.dart';
 import 'package:untitled/ui/movie.dart';
+import 'package:untitled/ui/note/notes_page.dart';
 import 'package:untitled/ui/quize.dart';
 import 'package:untitled/ui/wisdom.dart';
 
@@ -12,7 +13,7 @@ import 'ui/home.dart';
 
 void main() => runApp(new MaterialApp(
   debugShowCheckedModeBanner: false,
-  home: JsonParsingMap(),
+  home: NotesPage(),
 ));
 
 
