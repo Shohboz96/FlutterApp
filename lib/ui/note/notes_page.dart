@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:untitled/db/notes.dart';
-import 'package:untitled/model/note.dart';
+import 'package:untitled/db/note.dart';
 
 import 'edit_note_page.dart';
 import 'note_card_widget.dart';
@@ -50,7 +50,8 @@ class _NotesPageState extends State<NotesPage> {
       body: Center(
         child: isLoading
             ? CircularProgressIndicator()
-            : notes.isEmpty ? Text('No Notes') : buildNotes(),
+            : notes.isEmpty ? Text('No Notes')
+            : buildNotes(),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.black,

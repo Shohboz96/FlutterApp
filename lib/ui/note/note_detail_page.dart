@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:untitled/db/notes.dart';
-import 'package:untitled/model/note.dart';
+import 'package:untitled/db/note.dart';
 
 import 'edit_note_page.dart';
 

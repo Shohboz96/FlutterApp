@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/db/notes.dart';
-import 'package:untitled/model/note.dart';
+import 'package:untitled/db/note.dart';
 
 import 'note_form_widget.dart';
 

@@ -13,7 +13,7 @@ import 'ui/home.dart';
 
 void main() => runApp(new MaterialApp(
   debugShowCheckedModeBanner: false,
-  home: NotesPage(),
+  home: MovieListView(),
 ));
 
 
